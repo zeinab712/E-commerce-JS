@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>E-commerce | Home Page</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/all.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+   
+</head>
+<body>
+
+        <header>
+            <div class="container-fluid">
+                <nav>
+                    <h2 class="logo-commerce"><a href="index.html">E-Commerce</a></h2>
+                    <ul id="links">
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>     
+                    
+                    <ul class="middle">
+                        <li><a href="#" id="user"></a></li>
+                    </ul><!-- middle -->
+                    <ul id="user_info">
+                        
+                        <div class="last" style="display: flex;">
+                            <li class="shopping_cart">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="badge"></span>
+                                <div class="carts_products">
+                                    <div></div>
+                                    <a href="cartsproducts.html">View All Products</a>
+                                </div>
+                            </li>
+                            <p class="cart-word">Cart</p>
+                            <i class="fa-solid fa-sort-down"></i>
+                            <li><a href="#" id="logout">Log Out</a></li>
+                        </div><!-- last -->
+                    </ul>
+                </nav>  
+            </div><!-- container-fluid -->
+        </header>
+
+
+
+
+        <section class="home">
+
+            <div class="container-fluid">
+                <div class="form-group">
+                    <select class="form-control input" id="category-list" name="sellist1">
+                        <option>Search By Category Name</option>
+                        <option>Clothes</option> 
+                        <option>Technology</option>
+                        <option>Computer Accessories</option>
+                        <option>furniture</option>
+                    </select>
+                    <input type="text" class="form-control input" id="srch" placeholder="search">
+                </div><!-- form-group  -->
+            </div><!-- container-fluid -->
+            <hr>
+            <div class="container">
+                <div class="products">
+
+                    <div class="product_item card">
+                        <img src="images/1.svg" alt="" >
+                        <p>Product : Jacket</p>
+                        <p>price : 100 $</p>
+                        <p>Category : Clothes</p>
+                        <div class="card-foot">
+                            <button class="btn" id="btn-add">Add To Cart</button>
+                            <i class="fa-regular fa-heart" ></i>
+                        </div><!-- card-foot -->
+                    </div><!-- product_item -->
+                </div><!-- products -->
+            </div><!-- container -->
+        </section>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/register.js"></script>
+</body>
+</html>
